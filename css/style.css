@@ -159,6 +159,7 @@ footer {
 }
 
 .footer-button {
+	text-decoration: none;
 	color: #fff;
 	font-size: 18px;
 	display: inline-block;
@@ -167,6 +168,13 @@ footer {
 	border-radius: 50px;
 	padding: 12px 40px; 
 }
+
+.footer-button:hover {
+	background-color: #ce93d8;
+	color: #fff;
+
+}
+
 
 @media (max-width: 1200px) {
 	.header-before-title {
